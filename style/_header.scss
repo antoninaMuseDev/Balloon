@@ -1,0 +1,46 @@
+
+.header {
+}
+.header__inner {
+    display: flex;
+    max-width: 1142px;
+    margin-left: 182px;
+    justify-content: space-between;
+.header__text {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+
+color: #7A7A7A;
+}
+.header__link {
+}
+.header__link-img {
+}
+.header__navigation {
+    max-width: 675px;
+    margin: auto;
+}
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation-list__item {
+
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+color: #333333;
+
+
+}
+.navigation-list__item-link {
+    
+}

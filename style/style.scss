@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.promise {
+}
+.promise__text {
+}
+.sets {
+}
+.sets__img {
+}
+.sets__inner {
+}
+.sets__btn {
+}
+
+.insta {
+}
+.insta-list {
+}
+.insta-list__item {
+}
+.insta-list__item-img {
+}
+
+@import "_header.scss";
+@import "_delivery.scss";
+@import "_balls.scss";
+@import "_about.scss";
+@import "_work.scss";
+@import "_price.scss";
+@import "_info.scss";
+@import "_promice.scss";
+@import "_slider.scss";
+@import "_contacts.scss";
+@import "_footer.scss";

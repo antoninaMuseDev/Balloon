@@ -1,7 +1,10 @@
 
-.slider {
+.slider {display: block;
+    max-width: 1440px;
 }
 .swiper-container {
+    position: relative;
+    margin: auto;
 }
 .swiper-wrapper {
 }

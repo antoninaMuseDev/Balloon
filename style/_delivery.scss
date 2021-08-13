@@ -1,11 +1,47 @@
-
 .delivery {
+    display: block;
+    max-width: 1440px;
+    margin: auto;
+    background-image: url("img/backggaundballs.png");
 }
+
 .delivery__inner {
+    display: block;
+    margin-top: 158px;
+    margin-left: 130px;
 }
 .delivery__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 61px;
+
+    color: #333333;
 }
 .delivery__text {
+    padding-top: 24px;
+    ont-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 41px;
+
+    /* identical to box height */
+
+    color: #333333;
 }
 .delivery__button {
+    padding-top: 73px;
+    background: #ffe8e9;
+    border-radius: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+
+    /* identical to box height */
+
+    color: #333333;
 }

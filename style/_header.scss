@@ -6,6 +6,7 @@
     max-width: 1142px;
     margin-left: 182px;
     justify-content: space-between;
+}
 .header__text {
     font-family: Open Sans;
 font-style: normal;
@@ -29,6 +30,7 @@ color: #7A7A7A;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .navigation-list__item {
 
@@ -42,5 +44,7 @@ color: #333333;
 
 }
 .navigation-list__item-link {
+    display: block;
+    text-decoration: none;
     
 }

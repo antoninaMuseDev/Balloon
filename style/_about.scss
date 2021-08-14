@@ -1,15 +1,86 @@
-
 .about {
-}
-.about__title {
+    display: block;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 45px;
+
+    .about__title {
+        display: flex;
+        max-width: 1440px;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 53px;
+
+        color: #f7c988;
+
+        margin-top: 75px;
+        position: relative;
+        span {
+            position: relative;
+        }
+    }
+    .about__title::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        width: 602px;
+        height: 1px;
+        background-color: rgb(153, 0, 255);
+    }
+    .about__title::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 839px;
+        width: 602px;
+        height: 1px;
+        background-color: rgb(153, 0, 255);
+    }
 }
 .about__text {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    margin-top: 17px;
+    color: #baa89a;
 }
 .about-list {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 137px;
+    gap: 120px;
+    align-items: flex-end;
 }
 .about-list__item {
+    display: block;
+    align-items: flex-end;
 }
 .about-list__item-img {
+    display: block;
+    justify-content: center;
+    padding-left: 110px;
+    padding-bottom: 25px;
 }
 .about-list__item-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #333333;
 }

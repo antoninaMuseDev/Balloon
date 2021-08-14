@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.header {
+  max-width: 1440px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1142px;
+  margin-left: 182px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__text {
+  padding-top: 47px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #7A7A7A;
+}
+
+.header__link {
+  padding-top: 28px;
+}
+
+.header__navigation {
+  max-width: 675px;
+  margin: auto;
+  margin-top: 47px;
+}
+
+.navigation-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation-list__item-link {
+  display: block;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height */
+  color: #333333;
+}
+
+.delivery {
+  display: block;
+  background: #FFD8DB;
+}
+
+.delivery-wraper {
+  max-width: 1440px;
+  max-height: 825px;
+  margin: auto;
+  background-image: url("img/backggaundballs.png") no-repeat;
+  background-size: cover;
+}
+
+.delivery__inner {
+  display: block;
+  max-width: 647px;
+  padding-top: 158px;
+  margin-left: 130px;
+}
+
+.delivery__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 61px;
+  color: #333333;
+}
+
+.delivery__text {
+  padding-top: 24px;
+  ont-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+  color: #333333;
+}
+
+.delivery__button {
+  padding-top: 73px;
+  background: #ffe8e9;
+  border-radius: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height */
+  color: #333333;
+}
+
+.balls {
+  display: block;
+  max-width: 1440px;
+}
+
+.balls .balls__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  color: #08A5A9;
+}
+
+.slider {
+  display: block;
+  max-width: 1440px;
+}
+
+.swiper-container {
+  position: relative;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

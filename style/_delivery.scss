@@ -1,13 +1,21 @@
 .delivery {
     display: block;
+    
+   
+    background: #FFD8DB;
+}
+.delivery-wraper {
     max-width: 1440px;
-    margin: auto;
-    background-image: url("img/backggaundballs.png");
+    max-height: 825px;
+    margin: auto; background-image: url("img/backggaundballs.png") no-repeat;
+    background-size: cover;
 }
 
 .delivery__inner {
     display: block;
-    margin-top: 158px;
+    max-width: 647px;
+    padding-top: 158px;
+    
     margin-left: 130px;
 }
 .delivery__title {
@@ -45,3 +53,4 @@
 
     color: #333333;
 }
+

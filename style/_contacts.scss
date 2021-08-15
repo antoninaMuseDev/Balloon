@@ -1,13 +1,62 @@
-
 .contacts {
+    display: block;
+    max-width: 1440px;
+    margin: auto;
+}
+.contacts-wraper {
+    display: block;
+    max-width: 1440px;
+    margin: auto;
+    background: url(../img/plan.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 225px;
+    padding-top: 151px;
 }
 .contacts-inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 559px;
+    margin-left: 81px;
+    background: #ffffff;
+    border-radius: 15px;
 }
 .contacts__title {
+    display: block;
+    text-align: center;
+    margin-top: 46px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+
+    color: #08a5a9;
+    margin-bottom: 36px;
 }
-.contacts__text {
+.contacts-list {
+    display: block;
+    margin-left: 51px;
+    margin-bottom: 69px;
 }
-.contacts__title-lit {
+.contacts-list__text {
+    display: block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    color: #a29285;
 }
-.contacts__img {
+.contacts-list__text-blue {
+    margin-top: 45px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #08a5a9;
+}
+.contacts-list__img {
+    margin-top: 53px;
 }

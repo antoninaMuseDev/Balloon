@@ -1,9 +1,33 @@
-
 .footer {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    background: #404040;
 }
 .footer-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 81px;
+    margin-right: 81px;
+    text-align: center;
 }
-.footer__text-logo {
+.footer__img {
+    display: block;
+    padding-top: 37px;
+    padding-bottom: 37px;
 }
 .footer__text {
+    display: block;
+    padding-top: 57px;
+    margin-left: 800px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* identical to box height */
+
+    color: #cccccc;
 }

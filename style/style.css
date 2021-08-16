@@ -826,6 +826,9 @@
 }
 
 .swiper-container {
+  display: block;
+  max-width: 1440px;
+  max-height: 503px;
   position: relative;
   margin: auto;
 }

@@ -1,13 +1,22 @@
-
-const mySwiper = new Swiper('.swiper-container', {
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
+new Swiper('.comment-slide', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
     },
-  });
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+    scrollbar: {
+        ei: '.swiper-scrollbar'
+    },
 
-const mySwiper = document.querySelector('.swiper-container').swiper
+});
 
 
-    
-  
+
+
+
+
+

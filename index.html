@@ -10,9 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2018/swiper/swiper.min.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -326,34 +324,48 @@
             <a class="info-list-link__link" href="#">Оплата</a>
         </ul>
     </section>
-    <section class="slide">
-        <div class="swiper-container">
-             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <h2 class="slide__title"> <span>Отзывы наших клиентов</span> </h2>
-                    <img class="slide__img" src="img/sliderfoto.png" alt="Foto">
-                    <p class="slide__text">Доброе утро! Хотим оставить отзыв)
-                        Имениннице очень понравились шары! Цена и качество на высшем уровне! Очень дружелюбные
-                        работники! Будем заказывать только у вас, всем рекомендую!</p>
-                        <img  class="slide__img-el" src="img/eladres.png" alt="Email">
+    <section class="comment">
+        <h2 class="comment__title"> <span>Отзывы наших клиентов</span> </h2>
+        <div class="comment-slider swiper-container">
+            <div class="comment-slider__wrapper swiper-wrapper">
+                <div class="comment-slider__slide  swiper-slide">
+                    <div class="comment-slider__comment">
+                        <img class="comment-slider__comment-img" src="img/sliderfoto.png" alt="Foto">
+                        <p class="comment-slider__comment-text">Доброе утро! Хотим оставить отзыв)
+                            Имениннице очень понравились шары! Цена и качество на высшем уровне! Очень дружелюбные
+                            работники! Будем заказывать только у вас, всем рекомендую!</p>
+                        <img class="comment-slider__comment-img-el" src="img/eladres.png" alt="Email">
+                    </div>
+                   
                 </div>
-                <div class="swiper-slide">
-                    <h2 class="slide__title">Отзывы наших клиентов</h2>
-                    <img class="slide__img" src="img/sliderfoto.png" alt="Foto">
-                    <p class="slide__text">Доброе утро! Хотим оставить отзыв)
-                        Имениннице очень понравились шары! Цена и качество на высшем уровне! Очень дружелюбные
-                        работники! Будем заказывать только у вас, всем рекомендую!</p>
+                <div class="comment-slider__slide  swiper-slide">
+                    <div class="comment-slider__comment">
+                        <img class="comment-slider__comment-img" src="img/sliderfoto.png" alt="Foto">
+                        <p class="comment-slider__comment-text">Доброе утро! Хотим оставить отзыв)
+                            Имениннице очень понравились шары! Цена и качество на высшем уровне! Очень дружелюбные
+                            работники! Будем заказывать только у вас, всем рекомендую!</p>
+                        <img class="comment-slider__comment-img-el" src="img/eladres.png" alt="Email">
+                    </div>
+                   
                 </div>
-                <div class="swiper-slide">
-                    <h2 class="slide__title">Отзывы наших клиентов</h2>
-                    <img class="slide__img" src="img/sliderfoto.png" alt="Foto">
-                    <p class="slide__text">Доброе утро! Хотим оставить отзыв)
-                        Имениннице очень понравились шары! Цена и качество на высшем уровне! Очень дружелюбные
-                        работники! Будем заказывать только у вас, всем рекомендую!</p>
+                <div class="comment-slider__slide  swiper-slide">
+                    <div class="comment-slider__comment">
+                        <img class="comment-slider__comment-img" src="img/sliderfoto.png" alt="Foto">
+                        <p class="comment-slider__comment-text">Доброе утро! Хотим оставить отзыв)
+                            Имениннице очень понравились шары! Цена и качество на высшем уровне! Очень дружелюбные
+                            работники! Будем заказывать только у вас, всем рекомендую!</p>
+                        <img class="comment-slider__comment-img-el" src="img/eladres.png" alt="Email">
+                    </div>
+                   
                 </div>
+               
             </div>
+            <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            <div class="swiper-scrollbar"></div>
         </div>
-            <div class="swiper-pagination"></div>
+       
 
     </section>
     <section class="insta">
@@ -418,10 +430,8 @@
             <p class="footer__text">©all rights reserved</p>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/skript.js"></script>
 </body>
 
 </html>

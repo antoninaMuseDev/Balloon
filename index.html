@@ -168,125 +168,108 @@
     <section class="price">
         <h2 class="price__title"> <span>Прайс</span> </h2>
         <div class="price-tabs">
-            <input type="radio" class="price-tabs__input id=" info0" name="plus-info" checked>
-            <input type="radio" class="price-tabs__input id=" info1" name="plus-info">
-            <input type="radio" class="price-tabs__input id=" info2" name="plus-info">
-            <input type="radio" class="price-tabs__input id=" info3" name="plus-info">
-            <div class="price-tabs-plus__label-wrap">
-                <label for="info0" class="price-tabs-plus__label" id="info0label">
-                    Латекс 35см
-                </label>
-                <label for="info1" class="price-tabs-plus__label" id="info1label">
-                    Фольга
-                </label>
-                <label for="info2" class="price-tabs-plus__label" id="info2label">
-                    Шар гигант
-                </label>
-                <label for="info3" class="price-tabs-plus__label" id="info3label">
-                    Коробка
-                </label>
+            <button class="price-tabs__tablinks" onclick="openPrice(event, 'Lateks')">Латекс 35см</button>
+            <button class="price-tabs__tablinks" onclick="openPrice(event, 'Folga')">Фольга</button>
+            <button class="price-tabs__tablinks" onclick="openPrice(event, 'Balloon')">Шар гигант</button>
+            <button class="price-tabs__tablinks" onclick="openPrice(event, 'Box')">Коробка</button>
+            <div class="price-tabs__tabcontent" id="Lateks">
+                <ul class="price-tabs__tabcontent-list">
+                    <li class="price-tabs__tabcontent-item-text">Шар Пастель
+                        <span>2,5</span>р
+                    </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар Macarons
+                        <span>2,5</span>р
+                    </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар Металлик
+                        <span>3</span>р
+                    </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар с Рисунком
+                        <span>3</span>р
+                    </li>
+                    <li class="price-tabs__tabcontent-item-text>Шар с конфетти
+            <span>3,5</span>р
+        </li>
+        <li class=" price-tabs__tabcontent-item-text">Шар Хром
+                        <span>3,5</span>р
+                    </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар Агат(мрамор)
+                        <span>4</span>р
+                    </li>
+                </ul>
+
             </div>
-            <div class="price-tabs-plus__body" id="plus-body0">
-                <ul class="price-tabs-plus__info">
-                    <li class="price-tabs-plus__info-text">Шар Пастель
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
+
+            <div class="price-tabs__tabcontent" id="Folga">
+                <ul class="price-tabs__tabcontent-list">
+                    <li class="price-tabs__tabcontent-item-text">Шар Пастель
+                        <span>2,5</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Macarons
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар Macarons
+                        <span>2,5</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Металлик
-                        <span class="price-tabs-plus__info-text-span">3</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар Металлик
+                        <span>3</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар с Рисунком
-                        <span class="price-tabs-plus__info-text-span">3</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар с Рисунком
+                        <span>3</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар с конфетти
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
+                    <li class="price-tabs__tabcontent-item-text>Шар с конфетти
+            <span>3,5</span>р
+        </li>
+        <li class=" price-tabs__tabcontent-item-text">Шар Хром
+                        <span>3,5</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Хром
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар Агат(мрамор)
+                        <span>4</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Агат(мрамор)
-                        <span class="price-tabs-plus__info-text-span">4</span>р
+                </ul>
+
+            </div>
+            <div class="price-tabs__tabcontent" id="Balloon">
+                <ul class="price-tabs__tabcontent-list">
+                    <li class="price-tabs__tabcontent-item-text">Шар Пастель
+                        <span>2,5</span>р  </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар Macarons
+                        <span>2,5</span>р </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар Металлик
+                        <span>3</span>р </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар с Рисунком
+                        <span>3</span>р
+                    </li>
+                    <li class="price-tabs__tabcontent-item-text>Шар с конфетти
+            <span>3,5</span>р  </li>
+        <li class=" price-tabs__tabcontent-item-text">Шар Хром
+                        <span>3,5</span>р </li>
+                    <li class="price-tabs__tabcontent-item-text">Шар Агат(мрамор)
+                        <span>4</span>р
                     </li>
                 </ul>
             </div>
-            <div class="price-tabs-plus__body" id="plus-body1">
-                <ul class="price-tabs-plus__info">
-                    <li class="price-tabs-plus__info-text">Шар Пастель
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
+            <div class="price-tabs__tabcontent" id="Box">
+                <ul class="price-tabs__tabcontent-list">
+                    <li class="price-tabs__tabcontent-item-text">Шар Пастель
+                        <span>2,5</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Macarons
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар Macarons
+                        <span>2,5</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Металлик
-                        <span class="price-tabs-plus__info-text-span">3</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар Металлик
+                        <span>3</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар с Рисунком
-                        <span class="price-tabs-plus__info-text-span">3</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар с Рисунком
+                        <span>3</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар с конфетти
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
+                    <li class="price-tabs__tabcontent-item-text>Шар с конфетти
+            <span>3,5</span>р
+        </li>
+        <li class=" price-tabs__tabcontent-item-text">Шар Хром
+                        <span>3,5</span>р
                     </li>
-                    <li class="price-tabs-plus__info-text">Шар Хром
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Агат(мрамор)
-                        <span class="price-tabs-plus__info-text-span">4</span>р
-                    </li>
-                </ul>
-            </div>
-            <div class="price-tabs-plus__body" id="plus-body2">
-                <ul class="price-tabs-plus__info">
-                    <li class="price-tabs-plus__info-text">Шар Пастель
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Macarons
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Металлик
-                        <span class="price-tabs-plus__info-text-span">3</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар с Рисунком
-                        <span class="price-tabs-plus__info-text-span">3</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар с конфетти
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Хром
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Агат(мрамор)
-                        <span class="price-tabs-plus__info-text-span">4</span>р
+                    <li class="price-tabs__tabcontent-item-text">Шар Агат(мрамор)
+                        <span>4</span>р
                     </li>
                 </ul>
             </div>
-            <div class="price-tabs-plus__body" id="plus-body3">
-                <ul class="price-tabs-plus__info">
-                    <li class="price-tabs-plus__info-text">Шар Пастель
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Macarons
-                        <span class="price-tabs-plus__info-text-span">2,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Металлик
-                        <span class="price-tabs-plus__info-text-span">3</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар с Рисунком
-                        <span class="price-tabs-plus__info-text-span">3</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар с конфетти
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Хром
-                        <span class="price-tabs-plus__info-text-span">3,5</span>р
-                    </li>
-                    <li class="price-tabs-plus__info-text">Шар Агат(мрамор)
-                        <span class="price-tabs-plus__info-text-span">4</span>р
-                    </li>
-                </ul>
-            </div>
-        </div>
     </section>
     <div class="sets">
         <img class="sets__img" src="img/sets.png" alt="sets">
@@ -336,7 +319,7 @@
                             работники! Будем заказывать только у вас, всем рекомендую!</p>
                         <img class="comment-slider__comment-img-el" src="img/eladres.png" alt="Email">
                     </div>
-                   
+
                 </div>
                 <div class="comment-slider__slide  swiper-slide">
                     <div class="comment-slider__comment">
@@ -346,7 +329,7 @@
                             работники! Будем заказывать только у вас, всем рекомендую!</p>
                         <img class="comment-slider__comment-img-el" src="img/eladres.png" alt="Email">
                     </div>
-                   
+
                 </div>
                 <div class="comment-slider__slide  swiper-slide">
                     <div class="comment-slider__comment">
@@ -356,16 +339,16 @@
                             работники! Будем заказывать только у вас, всем рекомендую!</p>
                         <img class="comment-slider__comment-img-el" src="img/eladres.png" alt="Email">
                     </div>
-                   
+
                 </div>
-               
+
             </div>
             <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
             <div class="swiper-scrollbar"></div>
         </div>
-       
+
 
     </section>
     <section class="insta">

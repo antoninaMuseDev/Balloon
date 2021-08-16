@@ -44,54 +44,49 @@ color: #F5C3D2;
     height: 1px;
     background-color: blue;
 }
-.price-tabs {
-    display: flex;
-    max-width: 720px;
-    margin: auto;
-}
-.price-tabs__input {
-    display: none;
-}
 
-.price-tabs-plus__label-wrap {
+.price-tabs {
+    
+    overflow: hidden;
+    list-style-type: none;
     display: flex;
     max-width: 720px;
     margin: auto;
     justify-content: space-between;
     gap: 69px;
+    background-color: inherit;
+    margin-top: 66px;
+    margin-bottom: 66px;
 }
-.price-tabs-plus__label {
-    display: block;
-    font-family: "Open Sans";
+.price-tabs__tablinks {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform-origin: 0.3s;
+    font-family: 'Open Sans';
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
 line-height: 34px;
-margin-top: 66px;
-
 
 /* identical to box height */
 text-align: center;
 
 color: #A29285;
 }
-.price-tabs-plus__body {
+.tab.button:hover{
+    background-color: blueviolet;
+}
+.tab button.active {
+    background: #ccc;
+}
+.price-tabs__tabcontent {
     display: none;
-}
-.price-tabs-plus__info {
-}
-.price-tabs-plus__info-text {
-    font-family: "Open Sans";
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 34px;
-
-color: #000000;
-
 
 }
-.price-tabs-plus__info-text-span {
+.price-tabs__tabcontent-list {
+}
+.price-tabs__tabcontent-item-text {
     font-family: Open Sans;
 font-style: normal;
 font-weight: 300;
@@ -106,17 +101,4 @@ span {
 
 }
 
-
-}
-#info0:checked ~ .plus__label-wrap #info0label,
-#info1:checked ~ .plus__label-wrap #info1label,
-#info2:checked ~ .plus__label-wrap #info2label,
-#info3:checked ~ .plus__label-wrap #info3label {
-    display: block;
-}
-#info0:checked ~ #plus-body0,
-#info1:checked ~ #plus-body1,
-#info2:checked ~ #plus-body2,
-#info3:checked ~ #plus-body3 {
-    display: flex;
 }

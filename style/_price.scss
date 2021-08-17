@@ -1,4 +1,3 @@
-
 .price {
     
 }
@@ -46,24 +45,19 @@ color: #F5C3D2;
 }
 
 .price-tabs {
-    
-    overflow: hidden;
-    list-style-type: none;
-    display: flex;
-    max-width: 720px;
-    margin: auto;
-    justify-content: space-between;
-    gap: 69px;
-    background-color: inherit;
-    margin-top: 66px;
-    margin-bottom: 66px;
+    font-size: 0;
+    margin-top: 20px;
 }
-.price-tabs__tablinks {
-    border: none;
-    outline: none;
+.price-tabs__input {
+    display: none;
+}
+#tab-btn-1:checked
+.price-tabs__label {
+    display: inline-block;
+    text-align:center;
     cursor: pointer;
-    transform-origin: 0.3s;
-    font-family: 'Open Sans';
+    position: relative;
+    font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
@@ -74,31 +68,38 @@ text-align: center;
 
 color: #A29285;
 }
-.tab.button:hover{
-    background-color: blueviolet;
-}
-.tab button.active {
-    background: #ccc;
-}
 .price-tabs__tabcontent {
-    display: none;
 
 }
 .price-tabs__tabcontent-list {
+    display: block;
+    max-width: 737px;
 }
-.price-tabs__tabcontent-item-text {
-    font-family: Open Sans;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 34px;
-text-align: right;
-
-color: #000000;
-position:relative;
-span {
-    position: relative;
-
+.price-tabs__tabcontent-list-item {
 }
+.price-tabs__tabcontent-list-item-text {
+position: relative;
+    span{
+        position: relative;
 
+    }
 }
+.price-tabs__tabcontent-list-item-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 839px;
+    width: 458px;
+    height: 1px;
+    background-color: blue;
+    
+}
+    
+
+
+
+
+
+
+.
